@@ -1,0 +1,43 @@
+*{
+
+    margin-left:30px;
+    border:solid;
+
+font-size : 50px;
+background-position-y: 0vmin;
+
+}
+h1{
+    
+    color:#808080;
+}
+.icon{
+
+ display:flex;
+ justify-content: space-around;
+
+}
+a:link{
+    color:yellow;
+}
+a:visited{
+    color:green;
+}
+.img{
+    position: relative;
+}
+.img p{
+position: absolute;
+top : 10%;
+left : 10%;
+transform : translate(-25%,15%);
+opacity:0;
+}
+.img:hover p{
+opacity:1;
+
+}
+.img:hover img{
+    opacity:0.33;
+}
+
